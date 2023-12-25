@@ -54,7 +54,7 @@ public class Main implements Commands {
                     printAvg();
                     break;
                 default:
-                    System.out.println("WRONG COMMAND: TRY AGAIN!");
+                    System.out.println("WRONG COMMAND: TRY AGAIN!!");
             }
         }
     }
