@@ -7,11 +7,11 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class category {
-    int id;
-    String name;
+public class Category {
+   private int id;
+   private String name;
 
-    public category(String name) {
+    public Category(String name) {
         this.name = name;
     }
 }

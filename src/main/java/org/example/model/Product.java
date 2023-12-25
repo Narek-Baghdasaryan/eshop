@@ -7,15 +7,15 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class product {
-   private int id;
-   private String name;
-   private String description;
-   private double price;
-   private int quantity;
-   private int category_id;
+public class Product {
+    private int id;
+    private String name;
+    private String description;
+    private double price;
+    private int quantity;
+    private int category_id;
 
-    public product(String name, String description, double price, int quantity, int category_id) {
+    public Product(String name, String description, double price, int quantity, int category_id) {
         this.name = name;
         this.description = description;
         this.price = price;
